@@ -11,15 +11,14 @@ const headStyle = {
 	textAlign: "center", 
 } 
 return ( 
-    <div><Todo></Todo></div>
-	// <div > 
-	// <h1 style={headStyle}>Todo List</h1> 
-	// <BrowserRouter> 
-	// 	<Routes> 
-	// 	<Route path='/' element={<Todo/>}></Route> 
-	// 	</Routes> 
-	// </BrowserRouter> 
-	// </div> 
+	<div> 
+	<h1 style={headStyle}>Todo List</h1> 
+	<BrowserRouter> 
+		<Routes> 
+		<Route path='/' element={<Todo/>}></Route> 
+		</Routes> 
+	</BrowserRouter> 
+	</div> 
 ); 
 } 
 
